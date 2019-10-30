@@ -11,6 +11,8 @@ public class Main {
         int grade, i;
         int marks[] = new int[6];
         float total = 0,avg;
+
+        //changed code
         for (i = 0; i < 6; i++) {                   //loop for prompting user to enter grade
             System.out.print("Enter grade " + (i + 1) + ":");  //Enter 6 grades
 
